@@ -1,0 +1,5 @@
+click
+prettytable
+pytest
+requests
+requests_http_signature

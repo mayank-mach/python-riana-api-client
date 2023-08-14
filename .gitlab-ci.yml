@@ -1,0 +1,6 @@
+job:
+  script:
+    - python setup.py sdist
+    - chmod 644 dist/*
+    - cp dist/* /deploy_media/repo/thomsonreuters/python
+    - rm dist/*
